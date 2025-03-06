@@ -58,3 +58,5 @@ if (password_verify($saisie, $hash)){
 }
 
 var_dump($check);
+?>
+<a href="register.php">aller a l'inscription</a>
