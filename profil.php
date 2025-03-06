@@ -11,10 +11,10 @@
     <h1>Mon profil</h1>
     <?php
     if (isset($_SESSION["user"]))  {
-        $infoSession = $_SESSION["user"];
+        $infoSession = $_SESSION["user"]; // on recupere toute la session
     } 
     ?>
-    <p>Pseudo : <?= $infoSession["pseudo"]?></p>
+    <p>Pseudo : <?= $infoSession["pseudo"]?></p> <!-- on recupere les pseudo dans la session-->
     <p>Email : <?= $infoSession["email"]?></p>
 </body>
 </html>

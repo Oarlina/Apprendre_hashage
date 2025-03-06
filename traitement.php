@@ -51,7 +51,7 @@ if(isset($_GET['action'])){
             if ($_POST['submit']) {
               header("Location: login.php");
             }
-            $pdo = new PDO("mysql:host=localhost;dbname=apprendre_hashage;charset=utf8", "root","");
+            $pdo = new PDO("mysql:host=localhost;dbname=apprendre_hashage;charset=utf8", "root",""); // on cree la pdo
 
             // on instancie les elements et les filtre
             $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_SPECIAL_CHARS, FILTER_VALIDATE_EMAIL);
@@ -78,12 +78,12 @@ if(isset($_GET['action'])){
             // header("Location: login.php");
         break;
 
-        case "logout":
+        case "logout": // pour se deconnecter
             unset ($_SESSION["user"]);
             header("Location: home.php");
         break;
         
-        case "profile":
+        case "profil": // pour aller sur le profil
             header("Location: profil.php");
         break;
         case "home":
