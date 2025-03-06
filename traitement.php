@@ -78,10 +78,14 @@ if(isset($_GET['action'])){
             // header("Location: login.php");
         break;
 
-        case "Logout":
-
+        case "logout":
+            unset ($_SESSION["user"]);
+            header("Location: home.php");
         break;
-
+        
+        case "profile":
+            header("Location: profil.php");
+        break;
         case "home":
             header("Location: home.php");
             break;
