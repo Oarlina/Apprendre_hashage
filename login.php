@@ -7,16 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>S'inscrire</h1>
-    <form action="traitement.php?action=register" method="post">
+    <h1>Se connecter</h1>
+    <form action="traitement.php?action=login" method="post">
 
         <label for="">Mail</label>
         <input type="email" name="email"><br>
 
         <label for="">Mot de passe</label>
-        <input type="password" name="pass1"><br>
+        <input type="password" name="password"><br>
 
-        <input type="submit" value="S'enregistrer">
+        <input type="submit"value="S'enregistrer">
     </form>
 </body>
 </html>

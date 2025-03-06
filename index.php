@@ -57,6 +57,4 @@ if (password_verify($saisie, $hash)){
     echo "Les mots de passe sont différents! ";
 }
 
-var_dump($check);
-?>
-<a href="register.php">aller a l'inscription</a>
+
