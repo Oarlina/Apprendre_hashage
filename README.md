@@ -2,7 +2,7 @@
 
 **Description du Projet**  
 Cet exercice a été réalisé dans le cadre d'une formation en développement web. 
-L'objectif était de pouvoir s'inscrire, se connecter et de se déconnecter sur un site. 
+L'objectif était de pouvoir s'inscrire, se connecter et de se déconnecter sur un site. Pour pouvoir le reproduire sur forum.
 
 **Fonctionnalités**
 * Possibilité de s'inscrire.
@@ -20,7 +20,7 @@ L'objectif était de pouvoir s'inscrire, se connecter et de se déconnecter sur 
 * Utilisation des superglobales.
 * Bonne organisation du projet pour des applications web simples.
 * Respect du règlement général de protection des données ( **RGPD** ).
-* Hashage du mot de passe
+* Hashage du mot de passe.
   
 **Objectifs Pédagogiques**
 * Appliquer les concepts des superglobales.
