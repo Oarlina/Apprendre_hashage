@@ -28,7 +28,7 @@ L'objectif était de pouvoir s'inscrire, se connecter et de se déconnecter sur 
 * protéger les données sensibles.
   
 **A ajouter**
-* POuvoir supprimer le compte.
+* Pouvoir supprimer le compte.
 
 **Base de donnée**
 ![image](https://github.com/user-attachments/assets/02ee618e-15cb-41c5-b321-73b8aff05df3)
